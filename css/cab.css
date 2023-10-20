@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -10,10 +11,12 @@ body{
     font-family: 'Nunito' , sans-serif;
     font-size: 14pt;
 }
+
 a{
     text-decoration: none;
     color: #222;
 }
+
 header{
     background-color: #fbaa2d;
     color: #eee;
