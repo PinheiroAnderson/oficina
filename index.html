@@ -1,59 +1,106 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="Width-device-width, initial-scale=1.0">
-<title>CA AutoService</title>  
-
-<style>
-body{
-    background-color:orange;
-}    
-header img{
-    height: 250px;
-}
-header{
-    text-align: center;
-}
-section div a{
-    background-color: red;
-    display: list-item;
-    margin: 40px auto;
-    padding: 30px;
-    width: 60%;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-    border-radius: 10px;
-    list-style: none;
-}
-footer{
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA AutoService</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer="True"></script>
+    <link rel="stylesheet" href="./css/cab.css">
 </head>
+
 <body>
-    
+    <h1>Bem vindo ao site da CA AutoService </h1>
     <header>
-        <img src="./img/logo.jpg" alt="logo" width="300" height="100">
+        <div class="right space">
+
+            <a href="tel:+55 21 98341-6141" target="_blank" class="telbranc">
+                <img src="./img/icon/phone-solid.svg" alt="phone" height="14">
+                +55 21 98341-6141
+            </a>
+
+            <a href="https://instagram.com/caautoservicos?igshid=MzRlODBiNWFlZA==" target="_blank">
+                <img src="./img/icon/instagram.svg" alt="insta" height="19">
+            </a>
+
+        </div>
+        <nav class="flex-nav">
+            <div>
+                <a href="#">Início</a>
+                <a href="#" target="_blank">
+                    Quem somos
+                </a>
+                <a href="#">Serviços</a>
+            </div>
+            <div>
+                <img src="./img/logo.png" alt="Logo" height="250px">
+
+            </div>
+            <div>
+                <a href="mailto:caautoservice@gmail.com" target="_blank">E-mail</a>
+                <a href="https://maps.app.goo.gl/3jidUYtske5czxMN8" target="_blank">Localização</a>
+                <a href="https://api.whatsapp.com/send/?phone=5521964971436&text&type=phone_number&app_absent=0"
+                    target="_blank">WhatsApp</a>
+            </div>
+        </nav>
+        <div>
+
+        </div>
     </header>
     <section>
-        <div>
-        <a href="https://instagram.com/caautoservicos?igshid=MzRlODBiNWFlZA==">Instagram</a>
-        <a href="https://api.whatsapp.com/send/?phone=5521964971436&text&type=phone_number&app_absent=0">WhatsApp</a>
-        <a href="https://maps.app.goo.gl/3jidUYtske5czxMN8">Endereço</a>
-        <a href="https://www.w3schools.com">This is a link</a>
-    </div>
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="carousel-item-text">
+                        <h2>Reparos automotivos</h2>
+                        <p>Mecânica em geral com o melhor atendimento.</p>
+                        <img src="./img/motor.jpg" class="mx-auto d-block" style="width:50%" alt="motor">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-text">
+                        <h2>Injeção eletrônica</h2>
+                        <p>Scanner automotivo, para diagnosticar os problemas em seu veículo.</p>
+                        <img src="./img/scaner.jpg" class="mx-auto d-block" style="width:50%" alt="scaner">
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="carousel-item-text">
+                        <h2>ABS e suspensão</h2>
+                        <p>Garantimos que seu veículo tenha um desempenho seguro e suave na estrada.</p>
+                        <img src="./img/suspensao.jpg" class="mx-auto d-block" style="width:50%" alt="ABS">
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        </div>
     </section>
     <footer>
-        Anderson Santos<sup>&reg;</sup>
+
     </footer>
+
 </body>
+
 </html>
