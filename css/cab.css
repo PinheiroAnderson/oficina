@@ -14,15 +14,15 @@ body {
 
 a {
     text-decoration: none;
-    color: #222;
+    color: #eee;
 }
 
 header {
     background-color: #fbaa2d;
     color: #eee;
     text-align: center;
-    padding-top: 5px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 1px;
 }
 
 header nav a {
@@ -41,8 +41,14 @@ header nav a:hover {
 
 .flex-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
 
 }
 
@@ -65,17 +71,17 @@ header nav a:hover {
     color: #eee;
 }
 
-.carousel-item .carousel-item-text{
+.carousel-item .carousel-item-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    
+
 }
 
 .carousel-control-prev-icon {
-    filter: invert(1);
+    filter: invert(0);
 }
 
 .carousel-indicators [data-bs-target] {
@@ -84,7 +90,7 @@ header nav a:hover {
     border-radius: 50%;
 }
 
-.carousel-img{
+.carousel-img {
     width: 200px;
     height: 300px;
     object-fit: cover;
