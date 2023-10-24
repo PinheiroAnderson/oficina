@@ -43,6 +43,7 @@ header nav a:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+
 }
 
 .telbranc {
@@ -64,12 +65,13 @@ header nav a:hover {
     color: #eee;
 }
 
-.carousel-item .carousel-item-text {
+.carousel-item .carousel-item-text{
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    
 }
 
 .carousel-control-prev-icon {
@@ -80,4 +82,11 @@ header nav a:hover {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+.carousel-img{
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 15% 100%;
 }
