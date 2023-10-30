@@ -89,10 +89,3 @@ header nav a:hover {
     height: 10px;
     border-radius: 50%;
 }
-
-.carousel-img {
-    width: 200px;
-    height: 300px;
-    object-fit: cover;
-    object-position: 15% 100%;
-}
