@@ -9,7 +9,7 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    font-size: 14pt;
+    font-size: 16pt;
 }
 
 a {
@@ -48,7 +48,7 @@ header nav a:hover {
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 16pt;
 
 }
 
@@ -84,8 +84,49 @@ header nav a:hover {
     filter: invert(0);
 }
 
+.icon{
+    filter:invert(1)
+}
+
 .carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
+}
+
+.color-footer{
+    background-color: #fbaa2d;
+}
+
+.font-foot2{
+    color: #eee;
+}
+
+.text-footer{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+/* mobile */
+
+@media (max-width:600px) {
+    .logo{
+        display: none;
+    }
+    .flex-nav{
+        flex-direction: column ;
+    }
+    .flex-nav a{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+.navbar-toggler-icon{
+
+    background-image: url(/img/icons/bars-solid.svg);
+    width: 20px;
+    filter: invert(0);
 }
