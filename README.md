@@ -72,6 +72,4 @@ oficina/
 
 Desenvolvido por [Anderson Pinheiro](https://github.com/andiinps)
 
-## 📄 Licença
 
-Este projeto está sob a licença MIT. Veja o arquivo [License](License) para mais detalhes.
