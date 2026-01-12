@@ -37,7 +37,7 @@ Este projeto é uma página web estática desenvolvida para apresentar os servi�
 
 ### Deploy
 
-O site está hospedado no GitHub Pages: [https://andiinps.github.io/oficina/](https://andiinps.github.io/oficina/)
+O site está hospedado no GitHub Pages: [[https://andiinps.github.io/oficina/](https://pinheiroanderson.github.io/oficina/)]
 
 ## 📁 Estrutura do Projeto
 
@@ -71,5 +71,6 @@ oficina/
 ## 👨‍💻 Autor
 
 Desenvolvido por [Anderson Pinheiro](https://github.com/andiinps)
+
 
 
