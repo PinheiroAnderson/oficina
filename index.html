@@ -3,112 +3,148 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>CA AutoService</title>
-    <meta name="description" content="CA AutoService oferece reparos automotivos, injeção eletrônica e manutenção de freios e suspensões.">
-    <meta name="keywords" content="auto serviço, mecânica, reparos automotivos, injeção eletrônica, freios, suspensões">
-    <meta name="author" content="CA AutoService">
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
-        defer></script>
-    <link rel="stylesheet" href="css/stylo.css">
+    <title>CA Auto Serviços</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="scripts.js"></script>
 </head>
 
 <body>
-    <header>
-        <h1 class="text-center">Bem vindo ao site da CA AutoService</h1>
-        <div class="right space">
-            <a href="tel:+55 21 98341-8141" target="_blank" class="telbranc">
-                <img src="./assets/img/icons/phone-solid.svg" alt="Telefone" height="14">
-                +55 21 98341-8141
-            </a>
-            <a href="https://instagram.com/caautoservicos" target="_blank">
-                <img src="./assets/img/icons/instagram.svg" alt="Instagram" height="25">
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-content">
+            <div class="logo">
+                <img src="assets/img/logoNavBar.png" alt="Logo CAC Auto Serviços" class="img-logo">
+                CA <span>Auto Serviços</span>
+            </div>
+
+            <nav class="nav">
+                <a href="index.html">Início</a>
+                <a href="#service">Serviços</a>
+                <a href="#sobre">Sobre</a>
+            </nav>
+
+            <a href="https://wa.me/+5521964358562?text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20marcar%20uma%20revis%C3%A3o%20para%20meu%20carro" class="header-phone">
+                ☎ (21) 96435-8562
             </a>
         </div>
-        <nav class="flex-nav">
-            <div>
-                <img src="./assets/img/logoedit.jpeg" alt="Logo CA AutoService" height="250px">
-            </div>
-            <div id="links">
-                <a href="https://maps.app.goo.gl/3jidUYtske5czxMN8" target="_blank">Localização</a>
-                <a href="https://api.whatsapp.com/send/?phone=5521964971436&text&type=phone_number&app_absent=0" target="_blank">Contato</a>
-            </div>
-        </nav>
     </header>
 
-    <section class="container py-5">
-        <div class="row text-center">
-            <div class="col-md-4">
-                <div class="card h-100 shadow-hover">
-                    <img src="./assets/img/motor2.jpg" class="card-img-top" alt="Reparos automotivos">
-                    <div class="card-body">
-                        <h2 class="card-title">Reparos automotivos</h2>
-                        <p class="card-text">Mecânica em geral com o melhor atendimento.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 shadow-hover">
-                    <img src="./assets/img/icon-injecao-eletronica.jpg" class="card-img-top" alt="Injeção eletrônica">
-                    <div class="card-body">
-                        <h2 class="card-title">Injeção eletrônica</h2>
-                        <p class="card-text">Scanner automotivo para diagnosticar os problemas em seu veículo.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card h-100 shadow-hover">
-                    <img src="./assets/img/abs.jpg" class="card-img-top" alt="Freios e suspensões">
-                    <div class="card-body">
-                        <h2 class="card-title">ABS, freios e suspensões</h2>
-                        <p class="card-text">Serviços de freios e suspensões em geral.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="container py-5">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="text-center mb-4">
-                    <h2 class="fw-bold">Nosso dia a dia na oficina</h2>
-                    <p class="text-muted">Acompanhe nossos serviços e resultados reais</p>
-                </div>
-
-                <div class="elfsight-app-31ef58fc-62dd-4317-b69e-4e0d91fbbbc1"></div>
-            </div>
-        </div>
-    </section>
-
-    <footer class="py-4" style="background-color: #fbaa2d;">
-        <div class="container text-center">
-            <img src="./assets/img/logoedit.jpeg" alt="Logo CA AutoService" width="250px">
-            <div id="fo">
-                <h2 class="font-foot2">ONDE ESTAMOS</h2>
-                <img src="./assets/img/icons/location-dot-solid.svg" alt="Localização" height="19">
-                <p>Avenida Campo Mourão Lt:36 Qd:84, Garatiba - RJ.</p>
+    <!-- HERO -->
+    <section  class="hero">
+        <div class="hero-left">
+            <div class="hero-text">
+                <h1>Bem-vindo à<br><span>CA Auto Serviços</span></h1>
                 <p>
-                    <img src="./assets/img/icons/phone-solid.svg" alt="Telefone" height="14">
-                    +55 21 98341-6141
+                    Oferecemos serviços completos de mecânica em geral
+                    com qualidade e confiança.
                 </p>
-                <a href="https://instagram.com/caautoservicos" target="_blank">
-                    <img src="./assets/img/icons/instagram.svg" alt="Instagram" height="50">
+                <a href="https://wa.me/+5521967166770?text=Ol%C3%A1!%20Vim%20do%20site%20e%20gostaria%20de%20marcar%20uma%20revis%C3%A3o%20para%20meu%20carro" class="btn">Agende sua revisão</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <img src="assets/img/auto2.png" alt="Imagem de um carro">
+        </div>
+
+        <div class="hero-down">
+            <img src="assets/img/contato.png" alt="contato" class="hero-down-img">
+        </div>
+            
+    
+    </section>
+
+    <div class="letreiro-container">
+        <div id="meu-letreiro" class="letreiro-texto">
+            
+        </div>
+    </div>
+
+    <!-- SERVIÇOS -->
+    <section id="service" class="services">
+        <div class="container">
+            <h2>Nossos <span>Serviços</span></h2>
+            <p class="services-subtitle">
+                Veja alguns dos serviços que oferecemos para manter seu carro em perfeitas condições.
+            </p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <img src="assets/img/inject.png" alt="Ícone de injeção eletrônica">
+                    <h3>Injeção Eletrônica</h3>
+                    <p>Diagnóstico e reparo de sistemas de injeção eletrônica.</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="assets/img/breaks.png" alt="Ícone de freios">
+                    <h3>Freios e ABS</h3>
+                    <p>Manutenção em freios e sistemas ABS.</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="assets/img/susp.png" alt="Ícone de suspensão">
+                    <h3>Suspensão e Alinhamento</h3>
+                    <p>Reparo e alinhamento da suspensão.</p>
+                </div>
+                
+                <div class="service-card">
+                    <img src="assets/img/oilbat.png" alt="Ícone de troca de óleo">
+                    <h3>Troca de Óleo e Baterias</h3>
+                    <p>Troca de óleo e carga de baterias.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+   
+    <section id="sobre" class="sobre-nos">
+        <div class="container">
+            <div class="mapa">
+                <iframe
+                    src="https://maps.google.com/maps?width=600&height=400&hl=en&q=avenida%20campo%20mour%C3%A3o%20lote%2036%20quadra%2084&t=&z=14&ie=UTF8&iwloc=B&output=embed">
+                </iframe>
+                <div>
+                    <p>
+                        <b>Av. Campo Mourão Lote 36 - Quadra 84 Jardim Maravilha - Guaratiba, Rj</b>
+                    </p>
+                    <p>
+                    Tel:
+                    <span class="bold numberPhone">21 96435-8562</span>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="social-media">
+                <a href="https://www.instagram.com/caautoservicos/#" target="_blank" class="instagram-link">
+                    <img src="assets/img/icons/instagram.png" alt="Instagram" class="instagram-icon">
+                    Siga-nos no Instagram: @caautoservicos
                 </a>
             </div>
-            <p class="telbranc text-center color-end">&copy; <span id="anoAtual"></span> Desenvolvido por Anderson Pinheiro</p>
-        </div>
-    </footer>
 
-    <script>
-        document.getElementById('anoAtual').textContent = new Date().getFullYear();
-    </script>
-    <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
-    <script src="https://elfsightcdn.com/platform.js" async></script>
+            <div class="nos">
+                <h3>Sobre Nós</h3>
+                <p>
+
+                A CA Auto Serviços é especializada em mecânica em geral, oferecendo soluções completas para manter seu veículo seguro,
+                confiável e com o melhor desempenho.
+
+                Trabalhamos com injeção eletrônica, freios e ABS, suspensão, alinhamento, troca de óleo e baterias, sempre utilizando
+                equipamentos adequados e seguindo padrões técnicos rigorosos.
+
+                Nosso compromisso é com a qualidade do serviço, transparência no atendimento e confiança do cliente. Aqui, cada veículo
+                recebe atenção individual, diagnóstico preciso e um serviço feito com responsabilidade.</p>
+            </div>
+        </div>
+    </section>
+  
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; <span id="anoAtual"></span> Desenvolvido por Anderson Pinheiro - Todos os direitos reservados</p>
+    </footer>
 
 </body>
 
