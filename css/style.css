@@ -138,9 +138,10 @@ img.img-logo {
 .hero-down img {
   position: absolute;
   bottom: -90px;
-  left: 290%;
+  left: 292%;
   transform: translateX(-50%);
-  width: 548px;
+  width: 555px;
+  height: 265px;
   margin: 0px;
   clip-path: polygon(28% 0, 100% 0, 100% 100%, 0 100%);
 }
